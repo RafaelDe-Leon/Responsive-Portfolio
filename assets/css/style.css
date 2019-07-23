@@ -27,7 +27,7 @@ a {
 #name {
     display: inline-block;
     text-align: center;
-    /* float: left; */
+    float: left;
     margin-left: 20%;
     background-color: darkred;
     padding: 20px;
@@ -449,13 +449,20 @@ a {
         }
     }
 @media only screen and (max-width: 640px) {
-    
+
     #name {
         width: 100%;
         margin-left: 0;
     }
     .main-nav ul {
-        width: 380px;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    #nav-container {
+        width: 100%;
+        margin: 0;
+        text-align: ce
     }
     #container-top {
         width: 100%;
@@ -464,9 +471,11 @@ a {
     .container-middle {
         width: 100%;
         margin-top: 10px;
+        margin-right: 0;
     }
     .main-body {
         width: 90%;
+        margin: 0;
         text-align: center;
     }
     .my-image {
