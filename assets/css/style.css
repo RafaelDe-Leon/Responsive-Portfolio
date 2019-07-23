@@ -423,30 +423,35 @@ a {
         margin-left: 0;
     }
     .main-nav ul {
-        width: 100%;
-        margin-right: 0 auto;
+        width: 380px;
+    }
+        .main-nav {
+            text-align: center;
+            margin-left: 0 auto;
+        }
     }
     #container-top {
         width: 100%;
+        margin: 0 auto;
     }
     .container-middle {
-        width: 80%;
+        width: 90%;
     }
     .main-body {
         width: 100%;
         text-align: center;
     }
     .my-image {
-        width: 80%;
-        margin: 0 10%;
+        width: 90%;
+        margin: 0 5%;
     }
     .main-paragraph {
-        margin: 0 10%;
-        width: 80%;
+        margin: 0 5%;
+        width: 90%;
     }
     .second-paragraph, .third-paragraph {
-        margin: 0 10%;
-        width: 80%;
+        margin: 0 5%;
+        width: 90%;
     }
 }
 
