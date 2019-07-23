@@ -25,12 +25,10 @@ a {
 }
 
 #name {
-    display: inline;
+    display: inline-block;
     text-align: center;
-    float: left;
+    /* float: left; */
     margin-left: 20%;
-    margin-bottom: 0;
-    width: 300px;
     background-color: darkred;
     padding: 20px;
     font-size: 30px;
@@ -57,7 +55,7 @@ a {
 }
 
 .main-nav li {
-    display: inline;
+    display: inline-block;
     float: left;
     text-align: center;
     border-right: solid black;
@@ -76,7 +74,7 @@ a {
 }
 
 .main-nav {
-    display: inline-block;
+    display: inline;
     list-style-type: none;
     width: 100%;
     padding: 0;
