@@ -1,5 +1,14 @@
 # Responsive-Portfolio
-This is a responsive Portfolio
+This is a responsive Portfolio that was done for Columbia University Bootcamp.
+
+The main objective of this project was to create a responsive layout using media query.
+
+to respond to different screen sizes
+
+click (https://rafaelde-leon.github.io/Responsive-Portfolio/) to view the live page.
 
 
-This Project was done with using Media Query to target different screen sizes to diplay correctly in the smaller screens.
+## Built Using
+* HTML5
+* CSS3
+
